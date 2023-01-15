@@ -9,13 +9,6 @@
   h1 {
     font-size: 50px;
   }
-
-  ul {
-    margin: 10px;
-    padding: 0;
-    list-style: none;
-    display: flex;
-  }
 }
 .container {
   width: 70%;
@@ -25,8 +18,8 @@
   flex-wrap: wrap;
 
   .item {
-    width: 220px;
-    height: 150px;
+    width: 250px;
+    height: 170px;
     border-radius: 20px;
     border: 1px solid rgb(240, 239, 239);
     margin: 10px 20px;
@@ -37,7 +30,7 @@
     transition: all 0.5s ease;
 
     h3 {
-      position: absolute;
+      position: fixed;
       font-size: 20px;
     }
 
