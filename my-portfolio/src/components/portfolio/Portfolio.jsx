@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolio.scss";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { useEffect, useState } from "react";
 
 function Portfolio() {
@@ -38,6 +39,9 @@ function Portfolio() {
           <h3>Github</h3>
         </div>
       </div>
+      <a href="#works">
+        <KeyboardArrowDownIcon className="arrow" />
+      </a>
     </div>
   );
 }
