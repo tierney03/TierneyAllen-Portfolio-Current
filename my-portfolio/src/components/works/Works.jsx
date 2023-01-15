@@ -3,7 +3,7 @@ import "./works.scss";
 
 function Works() {
   return (
-    <div className="works" id="subsection">
+    <div className="works" id="works">
       Works
     </div>
   );
