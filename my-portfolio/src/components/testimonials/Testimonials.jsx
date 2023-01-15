@@ -3,11 +3,7 @@ import "./testimonials.scss";
 
 function Testimonials() {
   return (
-    <div
-      className="testimonials"
-      id="testimonials
-  "
-    >
+    <div className="testimonials" id="testimonials">
       Testimonials
     </div>
   );
