@@ -1,17 +1,18 @@
 import React from "react";
 import "./intro.scss";
-import { init } from "ityped";
+// import { init } from "ityped";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import { useEffect, useRef } from "react";
+// import { useEffect, useRef } from "react";
 
 function Intro() {
-  const textRef = useRef();
-  useEffect(() => {
-    init(textRef.current, {
-      showCursor: false,
-      strings: ["Full Stack Web Developer (MERN)"],
-    });
-  });
+  // const textRef = useRef();
+  // useEffect(() => {
+  //   init(textRef.current, {
+  //     showCursor: true,
+  //     typeSpeed: 500,
+  //     strings: ["Full Stack Web Developer"],
+  //   });
+  // });
   return (
     <div className="intro" id="intro">
       <div className="left">
@@ -27,7 +28,7 @@ function Intro() {
           <h2>Hello, I am</h2>
           <h1>Tierney Allen</h1>
           <h3>
-            <span ref={textRef}></span>
+            <span>Full Stack Web Developer</span>
           </h3>
         </div>
         <a href="#portfolio">

@@ -9,7 +9,7 @@
     .imgContainer {
       width: 700px;
       height: 700px;
-      background-color: olive;
+      background-color: #843b62;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -46,8 +46,21 @@
 
         span {
           font-size: inherit;
-          color: olive;
+          color: #843b62;
         }
+
+        // .ityped-cursor {
+        //   animation: blink 1s infinite;
+        // }
+
+        // @keyframes blink {
+        //   50% {
+        //     opacity: 1;
+        //   }
+        //   100% {
+        //     opacity: 0;
+        //   }
+        // }
       }
     }
     a {
