@@ -1,10 +1,39 @@
 import React from "react";
 import "./intro.scss";
+import { init } from "ityped";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { useEffect, useRef } from "react";
 
 function Intro() {
+  const textRef = useRef();
+  useEffect(() => {
+    init(textRef.current, {
+      showCursor: false,
+      strings: ["Full Stack Web Developer (MERN)"],
+    });
+  });
   return (
     <div className="intro" id="intro">
-      Intro
+      <div className="left">
+        <div className="imgContainer">
+          <img
+            src="assets/me.jpg"
+            alt="woman in front of computer screen with code displayed"
+          ></img>
+        </div>
+      </div>
+      <div className="right">
+        <div className="wrapper">
+          <h2>Hello, I am</h2>
+          <h1>Tierney Allen</h1>
+          <h3>
+            <span ref={textRef}></span>
+          </h3>
+        </div>
+        <a href="#portfolio">
+          <KeyboardArrowDownIcon className="arrow" />
+        </a>
+      </div>
     </div>
   );
 }
