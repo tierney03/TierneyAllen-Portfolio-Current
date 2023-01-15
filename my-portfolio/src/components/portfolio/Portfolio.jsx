@@ -29,13 +29,13 @@ function Portfolio() {
           >
             <img src="assets/SQL.png" alt="screenshot of web recording"></img>
           </a>
-          <h3>App</h3>
+          <h3>Employee Tracker</h3>
         </div>
         <div className="item">
           <a href="https://github.com/tierney03" target="_onblank">
             <img src="assets/Github.png" alt="screenshot of webpage"></img>
           </a>
-          <h3>App</h3>
+          <h3>Github</h3>
         </div>
       </div>
     </div>
