@@ -12,15 +12,15 @@ function Menu({ menuOpen, setMenuOpen }) {
           <a href="#portfolio">Portfolio</a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
+          <a href="#testimonials">Testimonials</a>
+        </li>
+        <li onClick={() => setMenuOpen(false)}>
           <a
             href="https://drive.google.com/file/d/1MPI1pmrpXh0Z4_EgQkJEKCkt7Wsov4zT/view?usp=sharing"
             target="_onblank"
           >
             Resume
           </a>
-        </li>
-        <li onClick={() => setMenuOpen(false)}>
-          <a href="#testimonials">Testimonials</a>
         </li>
       </ul>
     </div>
