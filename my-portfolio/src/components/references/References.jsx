@@ -1,14 +1,12 @@
-import "./testimonials.scss";
-import HouseSidingIcon from "@mui/icons-material/HouseSiding";
+import "./references.scss";
 
-export default function Testimonials() {
+export default function References() {
   const data = [
     {
       id: 1,
       name: "Sherry Hallmark",
       title: "Director of New Accounts",
-      img: "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: <HouseSidingIcon />,
+      img: "",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
     },
     {
@@ -23,15 +21,15 @@ export default function Testimonials() {
     {
       id: 3,
       name: "Leah Choco",
-      title: "Classmate in Full Stack Bootcamp",
+      title: "Full Stack Bootcamp Classmate",
       img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/linkedin.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
     },
   ];
   return (
-    <div className="testimonials" id="testimonials">
-      <h1>Testimonials</h1>
+    <div className="references" id="references">
+      <h1>References</h1>
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>

@@ -1,18 +1,22 @@
+import OneStop from "../src/components/assets/OneStop.png";
+import GoalE from "../src/components/assets/GoalE.png";
+import SQL from "../src/components/assets/SQL.png";
+
 export const featuredPortfolio = [
   {
     id: 1,
     title: "OneStop",
-    img: "assets/OneStop.png",
+    img: OneStop,
   },
   {
     id: 2,
     title: "Goal-E",
-    img: "assets/GoalE.png",
+    img: GoalE,
   },
   {
     id: 3,
     title: "Employee Tracker - SQL",
-    img: "assets/SQL.png",
+    img: SQL,
   },
   //   {
   //     id: 4,

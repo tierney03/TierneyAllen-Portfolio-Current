@@ -3,6 +3,7 @@ import "./intro.scss";
 // import { init } from "ityped";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 // import { useEffect, useRef } from "react";
+import Me from "../assets/Me.jpg";
 
 function Intro() {
   // const textRef = useRef();
@@ -18,7 +19,7 @@ function Intro() {
       <div className="left">
         <div className="imgContainer">
           <img
-            src="assets/me.jpg"
+            src={Me}
             alt="woman in front of computer screen with code displayed"
           ></img>
         </div>
