@@ -1,19 +1,10 @@
 import React from "react";
 import "./intro.scss";
-// import { init } from "ityped";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-// import { useEffect, useRef } from "react";
 import Me from "../assets/Me.jpg";
+import Typewriter from "typewriter-effect";
 
 function Intro() {
-  // const textRef = useRef();
-  // useEffect(() => {
-  //   init(textRef.current, {
-  //     showCursor: true,
-  //     typeSpeed: 500,
-  //     strings: ["Full Stack Web Developer"],
-  //   });
-  // });
   return (
     <div className="intro" id="intro">
       <div className="left">
@@ -29,7 +20,18 @@ function Intro() {
           <h2>Hello, I am</h2>
           <h1>Tierney Allen</h1>
           <h3>
-            <span>Full Stack Web Developer</span>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+
+                  .typeString("Full Stack Web Developer")
+
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("Full Stack Web Developer")
+                  .start();
+              }}
+            />
           </h3>
         </div>
         <a href="#portfolio">

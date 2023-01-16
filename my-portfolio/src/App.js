@@ -5,6 +5,7 @@ import References from "./components/references/References";
 import "./App.scss";
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
+import React from "react";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
