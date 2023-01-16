@@ -1,4 +1,7 @@
 import "./references.scss";
+// import HouseSidingIcon from "@mui/icons-material/HouseSiding";
+// import Face3Icon from "@mui/icons-material/Face3";
+// import PersonIcon from "@mui/icons-material/Person";
 
 export default function References() {
   const data = [
@@ -6,15 +9,12 @@ export default function References() {
       id: 1,
       name: "Sherry Hallmark",
       title: "Director of New Accounts",
-      img: "",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+      desc: "I have worked together with Tierney Allen for several years at Pickett Property Management. Tierney is a consumate team player; always supporting her co-workers with enthusiasm and expertise to accomplish tasks and provide valuable input. She is exceptionally well organized and professional in all aspects of her profession.",
     },
     {
       id: 2,
       name: "Alex Kalinski",
       title: "Co-Founder of DELKA",
-      img: "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/youtube.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
       featured: true,
     },
@@ -22,8 +22,6 @@ export default function References() {
       id: 3,
       name: "Leah Choco",
       title: "Full Stack Bootcamp Classmate",
-      img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/linkedin.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
     },
   ];
@@ -33,11 +31,7 @@ export default function References() {
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
-            <div className="top">
-              <img src="assets/right-arrow.png" className="left" alt="" />
-              <img className="user" src={d.img} alt="" />
-              <img className="right" src={d.icon} alt="" />
-            </div>
+            <div className="top"></div>
             <div className="center">{d.desc}</div>
             <div className="bottom">
               <h3>{d.name}</h3>
