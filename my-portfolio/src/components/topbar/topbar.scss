@@ -28,7 +28,7 @@
         margin-right: 40px;
 
         @include mobile {
-          font-size: 20px;
+          font-size: 25px;
         }
       }
 
@@ -39,7 +39,7 @@
 
         .icon {
           font-size: 18px;
-          margin-right: 5px;
+          margin-right: 2px;
           color: $mainColor;
         }
 
