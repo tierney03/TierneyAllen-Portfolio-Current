@@ -8,6 +8,10 @@
 
   h1 {
     font-size: 50px;
+
+    @include mobile {
+      font-size: 30px;
+    }
   }
 
   .container {
@@ -27,6 +31,10 @@
       justify-content: space-around;
       padding: 20px;
       transition: all 1s ease;
+
+      @include mobile {
+        width: 150px;
+      }
 
       &.featured {
         width: 300px;

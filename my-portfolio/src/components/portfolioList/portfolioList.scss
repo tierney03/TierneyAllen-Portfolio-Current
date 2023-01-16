@@ -7,6 +7,12 @@
   border-radius: 10px;
   cursor: pointer;
 
+  @include mobile {
+    margin: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   &.active {
     background-color: $mainColor;
     color: white;

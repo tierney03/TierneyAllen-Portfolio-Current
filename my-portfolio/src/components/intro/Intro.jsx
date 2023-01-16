@@ -18,7 +18,7 @@ function Intro() {
       <div className="left">
         <div className="imgContainer">
           <img
-            src="assets/Me.jpg"
+            src="assets/me.jpg"
             alt="woman in front of computer screen with code displayed"
           ></img>
         </div>
