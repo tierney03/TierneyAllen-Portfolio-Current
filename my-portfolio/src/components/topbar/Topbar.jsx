@@ -1,6 +1,8 @@
 import React from "react";
 import "./topbar.scss";
-import { Face3, Mail } from "@mui/icons-material";
+import MailIcon from "@mui/icons-material/Mail";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -11,12 +13,22 @@ function Topbar({ menuOpen, setMenuOpen }) {
             Tierney
           </a>
           <div className="itemContainer">
-            <Face3 className="icon" />
-            <span>1(360)999-6724</span>
+            <a href="https://github.com/tierney03/" target="_onblank">
+              <GitHubIcon className="icon" />
+            </a>
           </div>
           <div className="itemContainer">
-            <Mail className="icon" />
-            <span>tierney_03@mac.com</span>
+            <a
+              href="https://www.linkedin.com/in/tierney-allen/"
+              target="_onblank"
+            >
+              <LinkedInIcon className="icon" />
+            </a>
+          </div>
+          <div className="itemContainer">
+            <a href="mailto:tierney_03@mac.com">
+              <MailIcon className="icon" />
+            </a>
           </div>
         </div>
         <div className="right">

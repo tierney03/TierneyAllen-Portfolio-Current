@@ -36,6 +36,11 @@
         .icon {
           font-size: 18px;
           margin-right: 5px;
+          color: $mainColor;
+        }
+
+        a:link {
+          color: inherit;
         }
 
         span {
