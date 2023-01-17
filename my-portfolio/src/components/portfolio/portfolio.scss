@@ -57,9 +57,18 @@
       }
 
       img {
+        width: 105%;
+        height: 105%;
+        object-fit: cover;
+        z-index: 1;
+      }
+
+      a {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        overflow-x: hidden;
+        overflow-y: hidden;
         z-index: 1;
       }
 

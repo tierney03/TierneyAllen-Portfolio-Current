@@ -26,7 +26,7 @@ function Intro() {
 
                   .typeString("Full Stack Web Developer")
 
-                  .pauseFor(1000)
+                  .pauseFor(400)
                   .deleteAll()
                   .typeString("Full Stack Web Developer")
                   .start();
