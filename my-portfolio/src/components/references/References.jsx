@@ -22,7 +22,7 @@ export default function References() {
       id: 3,
       name: "Leah Choco",
       title: "Full Stack Bootcamp Classmate",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+      desc: "Tierney is an absolute gem. She has done a great job during our bootcamp of absorbing all the information and applying it. I had the pleasure of working with her on two group projects, as well as throughout the bootcamp on homework assignments. She is kind, knowledgable, and incredibly funny. Tierney would make an amazing addition to any team.",
     },
   ];
   return (
