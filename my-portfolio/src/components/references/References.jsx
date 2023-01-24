@@ -13,9 +13,9 @@ export default function References() {
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      name: "Jennifer Steill",
+      title: "Former Senior Manager at Apple",
+      desc: "Having known Tierney for over 15 years, I have experienced her ability to consistently and productively self manage under many stressors. Her work ethic is always strong and she is confident in providing constructive feedback to all level of peers and leadership to make positive changes. In a fast paced and ever changing environment, she can focus her attention on what is important and immediate. Tierney is a wealth of knowledge across many topics because she enjoys learning new skills.",
       featured: true,
     },
     {
