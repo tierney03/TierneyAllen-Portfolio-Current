@@ -8,7 +8,7 @@ export const featuredPortfolio = [
     id: 1,
     title: "athletetracker",
     img: athletetracker,
-    src: "https://github.com/tierney03/athletetracker/tree/main",
+    src: "https://athletetracker.herokuapp.com/",
   },
   {
     id: 2,
